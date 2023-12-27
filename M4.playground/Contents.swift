@@ -2,8 +2,8 @@ import UIKit
 
 
 func numbers(_ number1: Int,_ number2: Int) {
-    if number1 == number2
-    {print ("равно")
+    if number1 == number2 {
+        print ("равно")
     } else if number1 > number2 {
         print("больше")
     } else {
@@ -12,7 +12,6 @@ func numbers(_ number1: Int,_ number2: Int) {
 }
 
 numbers(3, 3)
-
 
 func summ(toValue: Int) -> Int {
     var sum = 0
@@ -23,6 +22,7 @@ func summ(toValue: Int) -> Int {
     }
     return sum
 }
+
 let result = summ(toValue: 100)
 print(result)
 
@@ -36,7 +36,6 @@ func test(num: Int) {
 }
 
 test(num: 100)
-
 
 func test3(num: Int) {
     for number in 1...num {
